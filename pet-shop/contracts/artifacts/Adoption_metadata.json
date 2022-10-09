@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "petId",
+						"type": "uint256"
+					}
+				],
+				"name": "adopt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "adopters",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdopters",
+				"outputs": [
+					{
+						"internalType": "address[16]",
+						"name": "",
+						"type": "address[16]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Adoption.sol": "Adoption"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Adoption.sol": {
+			"keccak256": "0xdcdd3ecd8fd930030b25708f67c031084908cd8e898459dbe4ab263c98475793",
+			"urls": [
+				"bzz-raw://dd0269e90526358ca6b70fc477d580969ede457389021579b8dc73fe16aedcc3",
+				"dweb:/ipfs/QmU2rGkLMh2CHSJ6i33G3AZGef253SNSUWev6gBFQ89Xej"
+			]
+		}
+	},
+	"version": 1
+}
